@@ -12,6 +12,11 @@ What You'll Find Here:
 🌐 Interactive Guest Engagement: Engaging features enriching guest interactions and in-room entertainment.
 Explore our repositories to witness the future of hospitality entertainment. Have ideas to share or questions to ask? Let's collaborate and continue shaping exceptional IPTV experiences for Pullman Hotel guests!
 
+Home 
+
+![home](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/9fe036a5-24ef-44f1-bb62-c59c7509c89f)
+
+
 
 
 

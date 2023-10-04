@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <import type="com.ph.bittelasia.meshtv.tv.glasshoteldemo.database.item.AmenitiesItem"/>
+        <variable
+            name="amenities"
+            type="AmenitiesItem" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/amenitiesParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/amenitiesLayout"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:background="@drawable/amenities_border"
+            app:layout_constraintStart_toStartOf="@id/amenitiesParent"
+            app:layout_constraintEnd_toEndOf="@id/amenitiesParent"
+            app:layout_constraintTop_toTopOf="@id/amenitiesParent"
+            app:layout_constraintBottom_toBottomOf="@id/amenitiesParent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@drawable/amenities_label"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hl1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:text="Breakfast"
+                android:text="@{amenities.caption}"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/hl1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteY="234dp" />
+
+            <ImageView
+                android:id="@+id/ivAmenities"
+                android:layout_width="0dp"
+                android:scaleType="fitXY"
+                android:layout_height="0dp"
+                android:padding="15dp"
+                tools:srcCompat="@drawable/food1"
+                android:src="@{amenities.image}"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/hl1"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="29dp"
+                android:contentDescription="@string/desc" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/hl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.69" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

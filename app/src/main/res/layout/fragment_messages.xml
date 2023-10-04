@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.ph.bittelasia.meshtv.tv.glasshoteldemo.database.item.MessagesItem"/>
+        <variable
+            name="data"
+            type="MessagesItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Amenities">
+
+        <ImageView
+            android:id="@+id/ivAmenities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/desc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/amenitiescover" />
+
+        <View
+            app:layout_constraintBottom_toTopOf="@id/gl4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/gl3"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:background="#979797" />
+
+        <View
+            app:layout_constraintEnd_toStartOf="@id/gl3"
+            android:layout_width="15dp"
+            app:layout_constraintTop_toBottomOf="@id/gl4"
+            android:layout_height="0dp"
+            android:background="#979797" />
+
+        <TextView
+            android:id="@+id/tVmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gd"
+            android:text="@string/messages"
+            android:textColor="#FF2E2E2E"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/gl3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivSearch"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/desc"
+            app:layout_constraintEnd_toEndOf="@id/tVmessage"
+            app:layout_constraintTop_toBottomOf="@id/tVmessage"
+            tools:src="@drawable/sbarmsg1" />
+
+        <ImageView
+            android:id="@+id/ivNav"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="@string/desc"
+            app:layout_constraintBottom_toBottomOf="@id/ivSearch"
+            app:layout_constraintStart_toEndOf="@id/ivSearch"
+            app:layout_constraintTop_toTopOf="@id/ivSearch"
+            tools:src="@drawable/navmore" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_constraintEnd_toEndOf="@id/gl3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/gl4"
+            android:fadeScrollbars="false"
+            android:id="@+id/messRv"
+            tools:listitem="@layout/message_layout"
+            android:scrollbarSize="15dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@drawable/scrollbarstyle"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            app:layout_constraintBottom_toTopOf="@id/gl4"
+            app:layout_constraintEnd_toEndOf="@id/gl2"
+            app:layout_constraintStart_toStartOf="@id/gl3"
+            android:layout_width="wrap_content"
+            android:textColor="#FF2E2E2E"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:text='@{data.sender != null ? data.sender : "" }'
+            android:fontFamily="@font/dn"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            app:layout_constraintStart_toEndOf="@id/gl3"
+            app:layout_constraintTop_toBottomOf="@id/gl4"
+            android:layout_width="wrap_content"
+            android:textColor="#FF2E2E2E"
+            android:textSize="25sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dn"
+            android:layout_marginBottom="10dp"
+            android:text='@{data.subTitle != null ? data.subTitle : "" }'
+            android:id="@+id/tvGreetings"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvMessBody"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dn"
+            app:layout_constraintEnd_toStartOf="@id/gl2"
+            android:textColor="#FF2E2E2E"
+            android:textSize="23sp"
+            app:layout_constraintStart_toEndOf="@id/gl3"
+            app:layout_constraintTop_toBottomOf="@id/tvGreetings"
+            android:text='@{data.message !=null ? data.message : ""}'
+            />
+
+        <TextView
+            app:layout_constraintStart_toEndOf="@id/gl3"
+            app:layout_constraintTop_toBottomOf="@id/tvMessBody"
+            android:layout_width="wrap_content"
+            android:textColor="#FF2E2E2E"
+            android:textSize="23sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dn"
+            android:layout_marginBottom="10dp"
+            android:text='@{data.message !=null ? "Thank you." : ""}'
+            android:id="@+id/thanks"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            app:layout_constraintStart_toEndOf="@id/gl3"
+            app:layout_constraintTop_toBottomOf="@id/thanks"
+            android:layout_width="wrap_content"
+            android:textColor="#FF2E2E2E"
+            android:textSize="23sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/dn"
+            android:layout_marginBottom="10dp"
+            android:text='@{data.message !=null ? "From," : ""}'
+            android:id="@+id/from"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            app:layout_constraintStart_toEndOf="@id/gl3"
+            app:layout_constraintTop_toBottomOf="@id/from"
+            android:layout_width="wrap_content"
+            android:textColor="#FF2E2E2E"
+            android:textSize="23sp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/dn"
+            android:id="@+id/tvSender"
+            android:layout_marginBottom="10dp"
+            android:text='@{data.sender != null ? data.sender : ""}'
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="25sp"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="50dp"
+            android:text="@string/back"
+            android:textStyle="bold"
+            android:id="@+id/tvBack"
+            android:textColor="#09195D"
+            android:fontFamily="@font/dn"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextClock
+            android:id="@+id/tc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:format12Hour="a"
+            android:text="@string/pm"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/gl2" />
+
+        <TextClock
+            android:id="@+id/tc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:format12Hour="hh:mm"
+            android:text="@string/_05_11"
+            android:textColor="@color/white"
+            android:textSize="58sp"
+            app:layout_constraintBottom_toTopOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/tc1" />
+
+        <TextClock
+            android:id="@+id/tc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dn"
+            android:format12Hour="MMMM dd, yyyy | EEEE"
+            android:text="@string/data"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/tc2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".14" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".93" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".35" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".27" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

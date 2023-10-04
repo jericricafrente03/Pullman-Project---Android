@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="com.ph.bittelasia.meshtv.tv.glasshoteldemo.database.item.AmenitiesItem" />
+        <variable
+            name="data"
+            type="AmenitiesItem" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Amenities">
+        <ImageView
+            android:id="@+id/ivAmenities"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/desc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/amenitiescover" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingTop="60dp"
+            android:layout_width="0dp"
+            android:id="@+id/rvAmenities"
+            app:layout_constraintEnd_toStartOf="@id/gl7"
+            app:layout_constraintStart_toEndOf="@id/gl5"
+            app:layout_constraintBottom_toTopOf="@id/gl6"
+            app:layout_constraintTop_toTopOf="@id/gl4"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/tVmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gd"
+            android:text="@string/amenities"
+            android:textColor="#FF2E2E2E"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/gl3"
+            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dn"
+            android:textColor="#FF2E2E2E"
+            android:textSize="35sp"
+            android:id="@+id/tvCaption"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/gl4"
+            app:layout_constraintEnd_toEndOf="@id/gl2"
+            app:layout_constraintStart_toStartOf="@id/gl3"
+            tools:text="INTERNET" />
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/dn"
+            android:text="@string/back"
+            android:textColor="#09195D"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <TextClock
+            android:id="@+id/tc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:format12Hour="a"
+            android:text="@string/pm"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/gl2" />
+        <TextClock
+            android:id="@+id/tc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:format12Hour="hh:mm"
+            android:text="@string/_05_11"
+            android:textColor="@color/white"
+            android:textSize="58sp"
+            app:layout_constraintBottom_toTopOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/tc1" />
+        <TextClock
+            android:id="@+id/tc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/dn"
+            android:format12Hour="MMMM dd, yyyy | EEEE"
+            android:text="@string/data"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="@id/gl1"
+            app:layout_constraintEnd_toStartOf="@id/tc2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".14" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".93" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".35" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".27" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".8" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/gl7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".95" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "sender": "Pullman Hotel Team",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    "time": "09:00 AM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "1",
+    "subTitle": "Pullman Hotel Team"
+  },
+  {
+    "id": 2,
+    "sender": "Pullman Hotel Team",
+    "message": "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
+    "time": "08:00 PM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "0",
+    "subTitle": "Purchase Receipt"
+  },
+  {
+    "id": 3,
+    "sender": "Pullman Hotel Team",
+    "message": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "time": "10:00 PM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "0",
+    "subTitle": "Happy Birthday Mr. Smith"
+  },
+  {
+    "id": 4,
+    "sender": "Pullman Hotel Team",
+    "message": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "time": "07:00 PM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "1",
+    "subTitle": "Welcome!"
+  },
+  {
+    "id": 5,
+    "sender": "Pullman Hotel Team",
+    "message": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur",
+    "time": "5:00 PM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "1",
+    "subTitle": "House Keeping Mngmt"
+  },
+  {
+    "id": 6,
+    "sender": "Pullman Hotel Team",
+    "message": "Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil)",
+    "time": "2:00 PM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "1",
+    "subTitle": "Promo"
+  },
+  {
+    "id": 7,
+    "sender": "Pullman Hotel Team",
+    "message": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+    "time": "11:00 AM",
+    "messageIcon": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/messagebubble",
+    "status": "1",
+    "subTitle": "Management"
+  }
+]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.ph.bittelasia.meshtv.tv.glasshoteldemo.database.item.MainUi" />
+        <variable
+            name="ui"
+            type="com.ph.bittelasia.meshtv.tv.glasshoteldemo.database.item.MainUi" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/parentIcon"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@drawable/icon_hover">
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_weight="65"
+                app:imageDefault='@{ui.logo}'
+                android:contentDescription="@string/desc"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:src="@drawable/icon1" />
+
+            <TextView
+                android:id="@+id/uiText"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:fontFamily="@font/selawksl"
+                android:gravity="center"
+                android:text="@{ui.caption}"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:paddingTop="4dp"
+                app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                app:layout_constraintStart_toStartOf="@id/ivIcon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ivIcon"
+                tools:text="HELLO" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

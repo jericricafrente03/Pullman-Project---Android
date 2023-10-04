@@ -1,0 +1,352 @@
+[
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "CNN",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c1",
+    "channelPrograms": "CNN",
+    "channelTitle": "CNN",
+    "channelUri": "file:///storage/emulated/0/Android/cnn.mp4",
+    "enabled": "1",
+    "id": "1"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "FOX NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c2",
+    "channelPrograms": "FOX NEWS",
+    "channelTitle": "FOX NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/fox.mp4",
+    "enabled": "1",
+    "id": "2"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "CBC NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c3",
+    "channelPrograms": "CBC NEWS",
+    "channelTitle": "CBC NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/cbc.mp4",
+    "enabled": "1",
+    "id": "3"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "BBC NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c4",
+    "channelPrograms": "BBC NEWS",
+    "channelTitle": "BBC NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/bbc.mp4",
+    "enabled": "1",
+    "id": "4"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "SKY NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c5",
+    "channelPrograms": "SKY NEWS",
+    "channelTitle": "SKY NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/sky.mp4",
+    "enabled": "1",
+    "id": "5"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "NBC NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c6",
+    "channelPrograms": "NBC NEWS",
+    "channelTitle": "NBC NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/nbc.mp4",
+    "enabled": "1",
+    "id": "6"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "CNA NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c7",
+    "channelPrograms": "CNA NEWS",
+    "channelTitle": "CNA NEWS",
+    "channelUri":"file:///storage/emulated/0/Android/cna.mp4",
+    "enabled": "1",
+    "id": "7"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "NBA TV",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c8",
+    "channelPrograms": "NBA TV",
+    "channelTitle": "NBA TV",
+    "channelUri": "file:///storage/emulated/0/Android/nba.mp4",
+    "enabled": "1",
+    "id": "8"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "IBC NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c9",
+    "channelPrograms": "IBC NEWS",
+    "channelTitle": "IBC NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/ibc.mp4",
+    "enabled": "1",
+    "id": "9"
+  },
+  {
+    "channelCategoryId": "1",
+    "channelDescription": "Z NEWS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/c10",
+    "channelPrograms": "Z NEWS",
+    "channelTitle": "Z NEWS",
+    "channelUri": "file:///storage/emulated/0/Android/znews.mp4",
+    "enabled": "1",
+    "id": "10"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "ONE SPORT",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s1",
+    "channelPrograms": "ONE SPORT",
+    "channelTitle": "ONE SPORT",
+    "channelUri": "file:///storage/emulated/0/Android/onesports.mp4",
+    "enabled": "1",
+    "id": "11"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "LIVE SPORTS TV",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s2",
+    "channelPrograms": "LIVE SPORTS TV",
+    "channelTitle": "LIVE SPORTS TV",
+    "channelUri": "file:///storage/emulated/0/Android/liveaction.mp4",
+    "enabled": "1",
+    "id": "12"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "SPORTS 18",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s3",
+    "channelPrograms": "SPORTS 18",
+    "channelTitle": "SPORTS 18",
+    "channelUri": "file:///storage/emulated/0/Android/sports18.mp4",
+    "enabled": "1",
+    "id": "13"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "ABS CBN LIVE SPORTS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s4",
+    "channelPrograms": "ABS CBN LIVE SPORTS",
+    "channelTitle": "ABS CBN LIVE SPORTS",
+    "channelUri": "file:///storage/emulated/0/Android/abscbnlivesports.mp4",
+    "enabled": "1",
+    "id": "14"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "UFC",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s5",
+    "channelPrograms": "UFC",
+    "channelTitle": "UFC",
+    "channelUri": "file:///storage/emulated/0/Android/ufc.mp4",
+    "enabled": "1",
+    "id": "15"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "STAR SPORTS FIRST",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s6",
+    "channelPrograms": "STAR SPORTS FIRST",
+    "channelTitle": "STAR SPORTS FIRST",
+    "channelUri": "file:///storage/emulated/0/Android/starsports.mp4",
+    "enabled": "1",
+    "id": "16"
+  },
+  {
+    "channelCategoryId": "2",
+    "channelDescription": "FOX SPORTS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/s7",
+    "channelPrograms": "FOX SPORTS",
+    "channelTitle": "FOX SPORTS",
+    "channelUri": "file:///storage/emulated/0/Android/fox.mp4",
+    "enabled": "1",
+    "id": "17"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "CELESTIAL MOVIE PINOY",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m1",
+    "channelPrograms": "CELESTIAL MOVIE PINOY",
+    "channelTitle": "CELESTIAL MOVIE PINOY",
+    "channelUri": "file:///storage/emulated/0/Android/celestialmovies.mp4",
+    "enabled": "1",
+    "id": "18"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "HBO",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m2",
+    "channelPrograms": "HBO",
+    "channelTitle": "HBO",
+    "channelUri":  "file:///storage/emulated/0/Android/hbo.mp4",
+    "enabled": "1",
+    "id": "19"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "HBO HITS",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m3",
+    "channelPrograms": "HBO HITS",
+    "channelTitle": "HBO HITS",
+    "channelUri":  "file:///storage/emulated/0/Android/hbohits.mp4",
+    "enabled": "1",
+    "id": "20"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "PABORITO NG BAYAN",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m4",
+    "channelPrograms": "PABORITO NG BAYAN",
+    "channelTitle": "PABORITO NG BAYAN",
+    "channelUri":  "file:///storage/emulated/0/Android/pbo.mp4",
+    "enabled": "1",
+    "id": "21"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "STAR MOVIES",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m5",
+    "channelPrograms": "STAR MOVIES",
+    "channelTitle": "STAR MOVIES",
+    "channelUri":  "file:///storage/emulated/0/Android/starmovies.mp4",
+    "enabled": "1",
+    "id": "22"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "Z CINEMA",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m6",
+    "channelPrograms": "Z CINEMA",
+    "channelTitle": "Z CINEMA",
+    "channelUri":  "file:///storage/emulated/0/Android/zcinema.mp4",
+    "enabled": "1",
+    "id": "23"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "CINEMAX",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/m7",
+    "channelPrograms": "CINEMAX",
+    "channelTitle": "CINEMAX",
+    "channelUri": "file:///storage/emulated/0/Android/cinemax.mp4",
+    "enabled": "1",
+    "id": "24"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "PARAMOUNT",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/t1",
+    "channelPrograms": "PARAMOUNT",
+    "channelTitle": "PARAMOUNT",
+    "channelUri":  "file:///storage/emulated/0/Android/paramount.mp4",
+    "enabled": "1",
+    "id": "25"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "CINEWORLD",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/t2",
+    "channelPrograms": "CINEWORLD",
+    "channelTitle": "CINEWORLD",
+    "channelUri":  "file:///storage/emulated/0/Android/cineworld.mp4",
+    "enabled": "1",
+    "id": "26"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "AFN",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/t3",
+    "channelPrograms": "AFN",
+    "channelTitle": "AFN",
+    "channelUri": "file:///storage/emulated/0/Android/afn.mp4",
+    "enabled": "1",
+    "id": "27"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "TLC",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/t4",
+    "channelPrograms": "TLC",
+    "channelTitle": "TLC",
+    "channelUri": "file:///storage/emulated/0/Android/tlc.mp4",
+    "enabled": "1",
+    "id": "28"
+  },
+  {
+    "channelCategoryId": "3",
+    "channelDescription": "BOOMERANG",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/t5",
+    "channelPrograms": "BOOMERANG",
+    "channelTitle": "BOOMERANG",
+    "channelUri": "file:///storage/emulated/0/Android/boomerang.mp4",
+    "enabled": "1",
+    "id": "29"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "ANIMAX",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k1",
+    "channelPrograms": "ANIMAX",
+    "channelTitle": "ANIMAX",
+    "channelUri":  "file:///storage/emulated/0/Android/animax.mp4",
+    "enabled": "1",
+    "id": "30"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "BOOMERANG",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k2",
+    "channelPrograms": "BOOMERANG",
+    "channelTitle": "BOOMERANG",
+    "channelUri": "file:///storage/emulated/0/Android/boomerang2.mp4",
+    "enabled": "1",
+    "id": "31"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "CARTOON NETWORK",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k3",
+    "channelPrograms": "CARTOON NETWORK",
+    "channelTitle": "CARTOON NETWORK",
+    "channelUri": "file:///storage/emulated/0/Android/cartoonnetwork.mp4",
+    "enabled": "1",
+    "id": "32"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "DISNEY CHANNEL",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k4",
+    "channelPrograms": "DISNEY CHANNEL",
+    "channelTitle": "DISNEY CHANNEL",
+    "channelUri": "file:///storage/emulated/0/Android/disney.mp4",
+    "enabled": "1",
+    "id": "33"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "KNOWLEDGE CHANNEL",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k5",
+    "channelPrograms": "KNOWLEDGE CHANNEL",
+    "channelTitle": "KNOWLEDGE CHANNEL",
+    "channelUri":"file:///storage/emulated/0/Android/knowledgechannel.mp4",
+    "enabled": "1",
+    "id": "34"
+  },
+  {
+    "channelCategoryId": "4",
+    "channelDescription": "NICKELODEON",
+    "channelImage": "android.resource://com.ph.bittelasia.meshtv.tv.glasshoteldemo/drawable/k6",
+    "channelPrograms": "NICKELODEON",
+    "channelTitle": "NICKELODEON",
+    "channelUri":"file:///storage/emulated/0/Android/nick.mp4",
+    "enabled": "1",
+    "id": "35"
+  }
+]

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextClock
+        android:id="@+id/tc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/selawksl"
+        android:format12Hour="a"
+        android:text="@string/pm"
+        android:textColor="#FF2E2E2E"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/gls1"
+        app:layout_constraintEnd_toStartOf="@id/vs1" />
+
+    <TextClock
+        android:id="@+id/tc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/selawksl"
+        android:format12Hour="hh:mm a"
+        android:text="@string/_05_11"
+        android:textColor="#FF2E2E2E"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/gls1"
+        app:layout_constraintEnd_toStartOf="@id/tc1" />
+
+    <TextClock
+        android:id="@+id/tc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/selawksl"
+        android:format12Hour="a"
+        android:text="@string/data"
+        android:textColor="#FF2E2E2E"
+        app:layout_constraintEnd_toStartOf="@id/vs1"
+        app:layout_constraintBottom_toTopOf="@id/gls2"
+        android:textSize="20sp" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gls1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gls2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.93" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MarqueeView">
+        <attr name="speed" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="color|reference"/>
+        <attr name="txt_spacing" format="dimension"/>
+        <attr name="txt_radius" format="float"/>
+        <attr name="txt_dx" format="float"/>
+        <attr name="txt_dy" format="float"/>
+        <attr name="text_shadowColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

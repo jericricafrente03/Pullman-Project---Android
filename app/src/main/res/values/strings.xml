@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GlassHotelDemo</string>
+    <string name="background">Background</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc">desc</string>
+    <string name="room_289">ROOM 289</string>
+    <string name="_05_11">05:11</string>
+    <string name="pm">PM</string>
+    <string name="data">March 25, 2022 | Friday</string>
+    <string name="welcome_albert_yu">Karlvin Ang&#160;</string>
+    <string name="messages">MESSAGES</string>
+    <string name="discount_offer">Discount Offer</string>
+    <string name="thank_you">Thank you.</string>
+    <string name="from">From,</string>
+    <string name="back"><![CDATA[< BACK]]></string>
+    <string name="amenities">HOTEL INFO
+    </string>
+    <string name="emergency">EMERGENCY BROADCAST</string>
+    <string name="em">THIS IS A TEST OF EMERGENCY ALERT SYSTEM</string>
+    <string name="room_no_000">ROOM NO: 000</string>
+    <string name="karlvin_ang">Karlvin Ang</string>
+    <string name="monday_14_march_2023_33_c">FRIDAY | 22 Sept 2023 | 33°C</string>
+    <string name="welcome_mr_karlvin_ang">WELCOME MR. Karlvin Ang!\n\nWe hope you enjoy your stay at our\nhotel. Feel free to explore our premises\nfor activities and recreations.</string>
+    <string name="netflix">NETFLIX</string>
+    <string name="message">MESSAGE</string>
+    <string name="tv">TV</string>
+    <string name="hotel_info">HOTEL INFO</string>
+</resources>
